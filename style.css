@@ -1,0 +1,166 @@
+nav{ background: blue;}
+
+body, html, section{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* #introduction {background-image: url("file:///C:/Users/31415/Desktop/The%20Artist%20Sanctuary/new%20logo.png"); text-shadow: 1px 1px 3px black;} */
+
+
+/* table, th, td {border: 1px ridge blueviolet;}
+table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius: 20px; box-shadow: 0px 0px 6px black;}
+    /* table{border-collapse: collapse;} */
+/*th,td {padding: 10px}
+    /* tr:nth-child(3n) {background-color: green;} */
+/*tr:hover {background-color: purple;}
+
+    /* using . is for class, # is used for id */
+    /*.dragon {opacity:0.5;} */
+
+.container {
+     position: relative;
+     text-align: center;
+    color: white;
+}
+
+    /* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+    /* Top left text */
+.top-left {
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    top: 8px;
+    left: 50px;
+}
+.left-name {position: absolute; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 50px; top: 10px; left: 100px;}
+
+    /* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+     right: 16px;
+}
+
+    /* Bottom right text */
+.bottom-right {
+    position: absolute;
+     bottom: 8px;
+     right: 16px;
+}
+
+    /* Centered text 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    color: black;
+ } */
+
+ .aboutme {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .aboutme:hover {background-color: white;}
+
+  .workexperience {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .workexperience:hover {background-color: white;}
+
+  .education {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .education:hover {background-color: white;}
+
+  .languages {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+
+  .languages:hover {background-color: white;}
+
+  .papers {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .papers:hover {background-color: white;}
+
+  .VAvideo {
+    position: absolute;
+    top:30%;
+    right: 15%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .VAvideo:hover {background-color: white;}
+
+  .authorship {
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .authorship:hover {background-color: white;}
+
+  .art {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .art:hover {background-color: white;}
+
+  .volunteer{
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .volunteer:hover {background-color: white;}
