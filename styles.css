@@ -96,7 +96,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     font-size: 50px;
     text-decoration: underline;
   }
-  .education:hover {background: src = "bk2.png";}
+  .education:hover {background-color: white;}
 
   .languages {
     position: absolute;
