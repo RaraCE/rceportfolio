@@ -30,7 +30,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     width: 100%;
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-attachment: scroll;
 }
