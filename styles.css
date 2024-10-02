@@ -46,12 +46,12 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
 .createdby {
     position: absolute;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
     top: 8px;
     left: 50px;
 } 
 
-.left-name {position: absolute; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 50px; top: 10px; left: 100px;}
+.left-name {position: absolute; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 35px; top: 10px; left: 100px;}
 
     /* Top right text */
 /*.top-right {
@@ -82,7 +82,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     left: 20%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .aboutme:hover {background-color: white;}
@@ -93,7 +93,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     left: 25%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .workexperience:hover {background-color: white;}
@@ -104,7 +104,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     left: 35%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .education:hover {background-color: white;}
@@ -115,7 +115,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     left: 25%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
 
@@ -127,7 +127,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     left: 10%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .papers:hover {background-color: white;}
@@ -138,7 +138,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     right: 15%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .VAvideo:hover {background-color: white;}
@@ -149,7 +149,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     right: 35%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .authorship:hover {background-color: white;}
@@ -160,7 +160,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     right: 30%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .art:hover {background-color: white;}
@@ -171,7 +171,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     right: 15%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     text-decoration: underline;
   }
   .volunteer:hover {background-color: white;}
