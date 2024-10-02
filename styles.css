@@ -44,7 +44,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
 }
 
     /* Top left text */
-/.top-left {
+.top-left {
     position: absolute;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
