@@ -24,7 +24,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
 .container {
      position: relative;
      text-align: center;
-    color: white;
+     background-color: rgb(14 128 199);
 }
 
 .background {
@@ -35,7 +35,6 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     background-repeat: repeat;
     background-size: cover;
     background-attachment: scroll;
-    background-color: 14 128 199;
     margin: 0;
     padding: 0;
 }
