@@ -33,6 +33,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     background-repeat: repeat;
     background-size: cover;
     background-attachment: scroll;
+    background-color: blue;
 }
 
     /* Bottom left text
