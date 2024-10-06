@@ -25,6 +25,8 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
      position: relative;
      text-align: center;
      background-color: rgb(14 128 199);
+     margin: 0;
+     padding: 0;
 }
 
 .background {
