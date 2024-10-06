@@ -4,6 +4,8 @@ body, html, section{
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 /* #introduction {background-image: url("file:///C:/Users/31415/Desktop/The%20Artist%20Sanctuary/new%20logo.png"); text-shadow: 1px 1px 3px black;} */
@@ -33,7 +35,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     background-repeat: repeat;
     background-size: cover;
     background-attachment: scroll;
-    background-color: blue;
+    background-color: 14 128 199;
     margin: 0;
     padding: 0;
 }
