@@ -34,6 +34,8 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
     background-size: cover;
     background-attachment: scroll;
     background-color: blue;
+    margin: 0;
+    padding: 0;
 }
 
     /* Bottom left text
