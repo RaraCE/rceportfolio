@@ -26,6 +26,8 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
      text-align: center;
      margin: 0;
      padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .background {
