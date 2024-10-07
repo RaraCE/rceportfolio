@@ -1,6 +1,13 @@
 /*nav{ background: blue;} */
 
-body, html, article, img{
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 1750px;
+    width: 1250px;
+
+body, article, img{
     text-align: center;
     margin: 0;
     padding: 0;
