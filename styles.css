@@ -1,14 +1,11 @@
 /*nav{ background: blue;} */
 
-body, html, article, img{
+body, html, article{
     text-align: center;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
 }
 
 /* #introduction {background-image: url("file:///C:/Users/31415/Desktop/The%20Artist%20Sanctuary/new%20logo.png"); text-shadow: 1px 1px 3px black;} */
