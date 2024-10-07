@@ -32,7 +32,7 @@ body, article, img{
   left: 50px;
 } 
 
-.left-name {position: absolute; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 35px; top: 10px; left: 100px;}
+.left-name {position: absolute; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 40px; top: 10px; left: 100px;}
 
 
 .aboutme {
@@ -41,7 +41,7 @@ body, article, img{
   left: 20%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .aboutme:hover {background-color: white;}
@@ -52,7 +52,7 @@ body, article, img{
   left: 25%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .workexperience:hover {background-color: white;}
@@ -63,7 +63,7 @@ body, article, img{
   left: 35%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .education:hover {background-color: white;}
@@ -74,7 +74,7 @@ body, article, img{
   left: 25%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 
@@ -86,7 +86,7 @@ body, article, img{
   left: 10%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .papers:hover {background-color: white;}
@@ -97,7 +97,7 @@ body, article, img{
   right: 15%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .VAvideo:hover {background-color: white;}
@@ -108,7 +108,7 @@ body, article, img{
   right: 35%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .authorship:hover {background-color: white;}
@@ -119,7 +119,7 @@ body, article, img{
   right: 30%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .art:hover {background-color: white;}
@@ -130,7 +130,7 @@ body, article, img{
   right: 11%;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .volunteer:hover {background-color: white;}
