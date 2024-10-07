@@ -1,11 +1,13 @@
 /*nav{ background: blue;} */
 
-body, section{
+body, article{
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 html {
@@ -14,6 +16,8 @@ html {
     text-align: center;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 /* #introduction {background-image: url("file:///C:/Users/31415/Desktop/The%20Artist%20Sanctuary/new%20logo.png"); text-shadow: 1px 1px 3px black;} */
@@ -37,7 +41,7 @@ table {border-spacing: 25px; margin-left:auto; margin-right:auto; border-radius:
 }
 
 .background {
-    height: 1500px;
+    height: 100%;
     width: 100%;
     /* Center and scale the image nicely */
     background-position: center;
