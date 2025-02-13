@@ -26,54 +26,65 @@ body, article, img{
 
  .createdby {
   position: absolute;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 15px;
-  top: 8px;
-  left: 50px;
+  top: 5%;
+  left: 5%;
 } 
 
-.left-name {position: absolute; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 40px; top: 10px; left: 100px;}
+.left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 50px; top: 10px; left: 10%; letter-spacing: 10px;}
 
 
 .aboutme {
   position: fixed;
-  top: 25%;
+  top: 30%;
   left: 17%;
   color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-decoration: underline;
 }
 .aboutme:hover {background-color: white;}
 
-.workexperience {
-  position: fixed;
-  top: 35%;
-  right: 20%;
-  color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.workexperience:hover {background-color: white;}
-
 .education {
   position: fixed;
-  top: 25%;
+  top: 30%;
   right: 25%;
   color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-decoration: underline;
 }
 .education:hover {background-color: white;}
 
+.workexperience {
+  position: fixed;
+  top: 40%;
+  right: 30%;
+  color: black;
+  font-family:Garamond, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-decoration: underline;
+}
+.workexperience:hover {background-color: white;}
+
+.volunteer{
+  position: fixed;
+  top: 40%;
+  left: 25%;
+  color: black;
+  font-family:Garamond, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-decoration: underline;
+}
+.volunteer:hover {background-color: white;}
+
 .languages {
   position: fixed;
-  top: 45%;
-  right: 25%;
+  top: 55%;
+  right: 20%;
   color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-decoration: underline;
 }
@@ -82,10 +93,10 @@ body, article, img{
 
 .papers {
   position: fixed;
-  top: %;
-  left: 20%;
+  top: 55%;
+  left: 13%;
   color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-decoration: underline;
 }
@@ -93,10 +104,10 @@ body, article, img{
 
 .VAvideo {
   position: fixed;
-  top: 65%;
-  left: 20%;
+  top: 75%;
+  left: 25%;
   color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-decoration: underline;
 }
@@ -104,22 +115,11 @@ body, article, img{
 
 .authorship {
   position: fixed;
-  top: 65%;
+  top: 75%;
   right: 30%;
   color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-decoration: underline;
 }
 .authorship:hover {background-color: white;}
-
-.volunteer{
-  position: fixed;
-  top: 30%;
-  left: 25%;
-  color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.volunteer:hover {background-color: white;}
