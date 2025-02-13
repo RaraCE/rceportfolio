@@ -37,8 +37,8 @@ body, article, img{
 
 .aboutme {
   position: fixed;
-  top: 20%;
-  left: 20%;
+  top: 25%;
+  left: 17%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -48,8 +48,8 @@ body, article, img{
 
 .workexperience {
   position: fixed;
-  top: 30%;
-  left: 25%;
+  top: 35%;
+  right: 20%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -59,8 +59,8 @@ body, article, img{
 
 .education {
   position: fixed;
-  top: 40%;
-  left: 35%;
+  top: 25%;
+  right: 25%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -70,8 +70,8 @@ body, article, img{
 
 .languages {
   position: fixed;
-  top: 50%;
-  left: 25%;
+  top: 45%;
+  right: 25%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -82,8 +82,8 @@ body, article, img{
 
 .papers {
   position: fixed;
-  top: 60%;
-  left: 10%;
+  top: %;
+  left: 20%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -93,8 +93,8 @@ body, article, img{
 
 .VAvideo {
   position: fixed;
-  top:30%;
-  right: 15%;
+  top:55%;
+  right: 25%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -104,8 +104,8 @@ body, article, img{
 
 .authorship {
   position: fixed;
-  top: 40%;
-  right: 35%;
+  top: 55%;
+  right: 25%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -113,21 +113,10 @@ body, article, img{
 }
 .authorship:hover {background-color: white;}
 
-.art {
-  position: fixed;
-  top: 50%;
-  right: 30%;
-  color: black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.art:hover {background-color: white;}
-
 .volunteer{
   position: fixed;
-  top: 60%;
-  right: 20%;
+  top: 30%;
+  left: 25%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
