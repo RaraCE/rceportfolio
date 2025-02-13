@@ -93,8 +93,8 @@ body, article, img{
 
 .VAvideo {
   position: fixed;
-  top:55%;
-  right: 25%;
+  top: 65%;
+  left: 20%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -104,8 +104,8 @@ body, article, img{
 
 .authorship {
   position: fixed;
-  top: 55%;
-  right: 25%;
+  top: 65%;
+  right: 30%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
