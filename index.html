@@ -35,5 +35,26 @@
       </div>
 
     </article>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const nameElement = document.querySelector(".left-name h1");
+        const nameText = nameElement.textContent;
+        nameElement.textContent = "";
+        let i = 0;
+
+        function typeWriter() {
+            if (i < nameText.length) {
+            nameElement.textContent += nameText.charAt(i);
+            i++;
+            setTimeout(typeWriter, 100);
+            }
+        }
+
+        typeWriter();
+        });
+
+    </script>
+    
 </body>
 </html>
