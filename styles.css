@@ -33,6 +33,8 @@ body, article, img{
   left: 5%;
 } 
 
+.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 60%; top: 19%; right: 6%; }
+
 .left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 50px; top: 9px; left: 20%; letter-spacing: 10px;}
 
 
