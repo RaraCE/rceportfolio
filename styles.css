@@ -15,14 +15,14 @@ body, article, img{
   width: 100%;
   margin: auto;
 }
-  .container {
-    position: relative;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    .container {
+      position: relative;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+     height: 100%;
+     width: 100%;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
  }
 
  .createdby {
@@ -35,7 +35,7 @@ body, article, img{
 
 .contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 60%; top: 19%; right: 6%; }
 
-.left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 50px; top: 9px; left: 20%; letter-spacing: 10px;}
+.left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 240%; top: 1%; left: 20%; letter-spacing: 5px;}
 
 
 .aboutme {
