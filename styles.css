@@ -33,26 +33,33 @@ body, article, img{
   left: 5%;
 } 
 
-.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 60%; top: 19%; right: 6%; }
+.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; top: 20%; right: 8%; }
 
 .left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 240%; top: 1%; left: 20%; letter-spacing: 5px;}
 
 
 .aboutme {
-  position: fixed;
-  top: 30%;
-  left: 20%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
-  text-decoration: underline;
 }
-.aboutme:hover {background-color: white;}
+
+.aboutme1 {
+  position: absolute;
+  top: 34%;
+  left: 5%;
+  color: black;
+  font-family:Georgia , 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
 
 .education {
   position: fixed;
-  top: 30%;
-  right: 20%;
+  top: 60%;
+  left: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -60,21 +67,10 @@ body, article, img{
 }
 .education:hover {background-color: white;}
 
-.workexperience {
-  position: fixed;
-  top: 40%;
-  right: 30%;
-  color: black;
-  font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.workexperience:hover {background-color: white;}
-
 .volunteer{
   position: fixed;
-  top: 40%;
-  left: 30%;
+  top: 80%;
+  right: 5%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -82,10 +78,23 @@ body, article, img{
 }
 .volunteer:hover {background-color: white;}
 
+
+.workexperience {
+  position: fixed;
+  top: 70%;
+  right: 25%;
+  color: black;
+  font-family:Georgia , 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-decoration: underline;
+}
+.workexperience:hover {background-color: white;}
+
+
 .languages {
   position: fixed;
   top: 60%;
-  right: 20%;
+  right: 5%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -96,7 +105,7 @@ body, article, img{
 
 .papers {
   position: fixed;
-  top: 60%;
+  top: 70%;
   left: 17%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
@@ -108,7 +117,7 @@ body, article, img{
 .VAvideo {
   position: fixed;
   top: 80%;
-  left: 30%;
+  left: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -118,8 +127,8 @@ body, article, img{
 
 .authorship {
   position: fixed;
-  top: 80%;
-  right: 33%;
+  top: 60%;
+  right: 45%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -129,8 +138,8 @@ body, article, img{
 
 .direct {
   position: fixed;
-  top: 86%;
-  right: 34%;
+  top: 65%;
+  right: 46%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
