@@ -33,7 +33,7 @@ body, article, img{
   left: 5%;
 } 
 
-.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 13px; top: 15%; right: 8%; padding: 1%; background: rgba(20, 181, 230, 0.834); text-align: center; border-radius: 10%;  }
+.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 13px; top: 15%; right: 8%; padding: 1%; background: #14b5e6d5; text-align: center; border-radius: 10%;  }
 
 .left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 240%; top: 1%; left: 20%; letter-spacing: 5px;}
 
@@ -55,7 +55,7 @@ body, article, img{
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 20px;
   padding: 2%;
-  background: rgba(20, 181, 230, 0.834);
+  background: #14b5e6d5;
   text-align: center;
   border-radius: 10%;
 }
