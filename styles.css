@@ -33,14 +33,14 @@ body, article, img{
   left: 5%;
 } 
 
-.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; top: 20%; right: 8%; }
+.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 13px; top: 15%; right: 8%; padding: 1%; background: rgba(20, 181, 230, 0.834); text-align: center; border-radius: 10%;  }
 
 .left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 240%; top: 1%; left: 20%; letter-spacing: 5px;}
 
 
 .aboutme {
   position: absolute;
-  top: 25%;
+  top: 26%;
   left: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
@@ -49,16 +49,20 @@ body, article, img{
 
 .aboutme1 {
   position: absolute;
-  top: 34%;
-  left: 5%;
+  top: 33%;
+  left: 0%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 20px;
+  padding: 2%;
+  background: rgba(20, 181, 230, 0.834);
+  text-align: center;
+  border-radius: 10%;
 }
 
 .education {
   position: fixed;
-  top: 60%;
+  top: 65%;
   left: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
@@ -69,8 +73,8 @@ body, article, img{
 
 .volunteer{
   position: fixed;
-  top: 80%;
-  right: 5%;
+  top: 83%;
+  right: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -81,7 +85,7 @@ body, article, img{
 
 .workexperience {
   position: fixed;
-  top: 70%;
+  top: 73%;
   right: 25%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
@@ -93,8 +97,8 @@ body, article, img{
 
 .languages {
   position: fixed;
-  top: 60%;
-  right: 5%;
+  top: 65%;
+  right: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -105,8 +109,8 @@ body, article, img{
 
 .papers {
   position: fixed;
-  top: 70%;
-  left: 17%;
+  top: 73%;
+  left: 15%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
@@ -116,7 +120,7 @@ body, article, img{
 
 .VAvideo {
   position: fixed;
-  top: 80%;
+  top: 83%;
   left: 10%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
@@ -127,7 +131,7 @@ body, article, img{
 
 .authorship {
   position: fixed;
-  top: 60%;
+  top: 65%;
   right: 45%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
@@ -138,7 +142,7 @@ body, article, img{
 
 .direct {
   position: fixed;
-  top: 65%;
+  top: 70%;
   right: 46%;
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
