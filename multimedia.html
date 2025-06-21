@@ -7,7 +7,6 @@
     <title>Multimedia Projects</title>
 
   <style>
-      
     .main {
       height: 96vh;
       width: 96vw;
@@ -35,7 +34,9 @@
       width: 100%;
     }
 
-      .left-top {
+
+
+     .left-top {
         position: fixed;
         top: 5%;
         left: 5%;
@@ -47,90 +48,110 @@
       .voice {
             position: fixed;
             top: 26%;
-            left: 10%;
+            left: 5%;
             color: white;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-size: 15px;
-            padding: 3%;
+            padding: 2%;
             background: rgba(38, 156, 235, 0.87);
             text-align: center;
-            border-radius: 50%;
+            border-radius: 40%;
         }
 
         .audio{
-          position: absolute;
-            top: 24%;
-            left: 41%;
-            color: white;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            font-size: 14px;
-            padding: 3%;
-            background: rgba(50, 97, 14, 0.834);
-            text-align: center;
-            border-radius: 50%;
-        }
-
-        .edit{
-          position: absolute;
-            top: 64%;
-            right: 26%;
-            color: white;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            font-size: 14px;
-            padding: 3%;
-            background: rgba(143, 29, 199, 0.834);
-            text-align: center;
-            border-radius: 50%;
-        }
-
-        .high{
-          position: absolute;
-            top: 68%;
-            right: 44%;
-            color: white;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            font-size: 14px;
-            padding: 1%;
-            background: rgba(215, 151, 48, 0.834);
-            text-align: center;
-            border-radius: 50%;
-        }
-
-        .trailers{
-          position: absolute;
-            top: 40%;
-            right: 25%;
+          position: fixed;
+            top: 26%;
+            left: 37%;
             color: white;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-size: 14px;
             padding: 2%;
-            background: rgba(226, 30, 30, 0.834);
+            background: rgba(50, 97, 14, 0.834);
             text-align: center;
-            border-radius: 50%;
+            border-radius: 40%;
         }
 
-        .bird{
+        .trailers{
           position: fixed;
-          top: 65%;
-          left: 9%;
+          bottom: 5%;
+          left: 5%;
+          color: white;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 14px;
+          padding: 2%;
+          background: rgba(226, 30, 30, 0.834);
+          text-align: center;
+          border-radius: 40%;
         }
 
-        .rose{
+        .photography{
           position: fixed;
-          top: 70%;
-          left: 20%;
+          bottom: 5%;
+          left: 30%;
+          color: white;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 14px;
+          padding: 2%;
+          background: rgba(82, 30, 226, 0.834);
+          text-align: center;
+          border-radius: 40%;  
         }
 
-        .map{
+        .art{
           position: fixed;
-          top: 60%;
-          right: 7%;
+          bottom: 5%;
+          left: 51%;
+          color: white;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 14px;
+          padding: 2%;
+          background: rgba(209, 150, 13, 0.834);
+          text-align: center;
+          border-radius: 40%;  
         }
 
-        .dragon{
+        #flipbook-container {
+          width: 300px;
+          height: 200px;
           position: fixed;
-          top: 18%;
-          right: 10%;
+          bottom: 20px;
+          left: 70%;
+          overflow: hidden;
+          perspective: 1000px;
+          border: 2px solid #ccc;
+          border-radius: 8px;
+        }
+
+        #flipbook-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.6s ease-in-out;
+          transform-style: preserve-3d;
+        }
+
+        #flipbook-container2 {
+          width: 350px;
+          height: 270px;
+          position: fixed;
+          top: 10%;
+          left: 65%;
+          overflow: hidden;
+          perspective: 1000px;
+          border: 2px solid #ccc;
+          border-radius: 8px;
+        }
+
+        #flipbook-image2 {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.6s ease-in-out;
+          transform-style: preserve-3d;
+        }
+
+        .flip {
+          transform: rotateY(180deg);
         }
 
 
@@ -147,35 +168,95 @@
         
         <div class="left-top"><h1>multimedia projects</h1></div>
 
-        <img class="bird" src="painting2.jpg" alt="a painting of leaves and a bird" style="width:150px; height: 190px" ;>
+        <!--art-->
+        <div id="flipbook-container">
+          <img id="flipbook-image" src="art.png" alt="Flipbook image">
+        </div>
 
-        <img class="rose" src="painting1.jpg" alt="a painting of a white rose" style="width:200px; height: 150px" ;>
+        <!--photography-->
+        <div id="flipbook-container2">
+          <img id="flipbook-image2" src="photography.png" alt="Flipbook image">
+        </div>
 
-        <img class="map" src="braewood keep map.jpg" alt="a map of braewood keep" style="width:250px; height: 300px" ;>
-
-        <img class="dragon" src="last silver dragon picture.jpg" alt="a drawing of a silver dragon" style="width:350px; height: 250px" ;>
-
-        <div class="voice"> <h2>Voice Overs</h2> <p>(cartoon/comics/fanmade,etc.) <br> <a href="https://sites.google.com/view/teammelonlord-com/episodes?fbclid=IwAR3xZnD6rzFpIwftw9xjZKgf-zqji-DXklAOnAWSRjNd48YppFW2xMQiZ2U "
+        <div class="voice"> <h2>Voice Acting</h2> <p>(cartoon/comics/fanmade,etc.) <br> <a href="https://sites.google.com/view/teammelonlord-com/episodes?fbclid=IwAR3xZnD6rzFpIwftw9xjZKgf-zqji-DXklAOnAWSRjNd48YppFW2xMQiZ2U "
           style = "color:#ffffff" > Avatar the Last Airbender [parody] (Katara)</a>
            <br> <a href="https://www.youtube.com/watch?v=EJzlmAHZEnc" style = "color:#ffffff">Dimitri in the Past (Hilda)</a> 
         <br><a href="https://www.youtube.com/watch?v=X6ZcJdRPNW0" style = "color:#ffffff">LEGO Batman [fanmade] (Poison Ivy)</a> 
       <br> <a href="https://www.youtube.com/watch?v=nj543ErIeRw " style = "color:#ffffff">Final Fantasy VIII [fanmade] (Quistis)</a>  </p></div>
 
-      <div class="audio"> <h2>Audiobooks</h2> <p>(voiced and produced) <br><br> <a href="https://www.amazon.com/Gold-Iron-Dreams-Nightmares-Trilogy/dp/B09X78TV7F/ref=sr_1_7?crid=23ALQDN458WR2&keywords=nicki+chapelway&qid=1657660280&sprefix=nicki+chapelway%2Caps%2C143&sr=8-7" 
+      <div class="audio"> <h2>Audiobook Narration</h2> <p>(voiced and produced) <br> <a href="https://www.amazon.com/Gold-Iron-Dreams-Nightmares-Trilogy/dp/B09X78TV7F/ref=sr_1_7?crid=23ALQDN458WR2&keywords=nicki+chapelway&qid=1657660280&sprefix=nicki+chapelway%2Caps%2C143&sr=8-7" 
         style = "color:#ffffff"><i>Of Gold and Iron</i></a> <br> and <br>
         <a href="https://www.amazon.com/Stars-Shadows-Dreams-Nightmares-Trilogy/dp/B0B527VRFB/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=1657660303&sr=8-3" style = "color:#ffffff"><i>Of Stars and Shadows</i></a> 
         <br> by Nicki Chapelway</p></div>
 
-      <div class="edit"> <h2>Editing Software:</h2> <p>Adobe Premiere Pro</p></div>
-
-      <div class="high"><p>Produced small films for high<br> school class projects</p></div>
-
-      <div class="trailers"><p>Produced and edited trailers for books: <br> <br><a href="https://www.youtube.com/watch?v=KyKzklEL80M" style = "color:#ffffff">Jewels, Cauldrons, and a little Magic</a>  
+      <div class="trailers"><h2>Book Trailers</h2> <p><a href="https://www.youtube.com/watch?v=KyKzklEL80M" style = "color:#ffffff">Jewels, Cauldrons, and a Little Magic</a>  
       <br> <a href="https://www.youtube.com/watch?v=ghwGRudADV0&t=2s" style = "color:#ffffff">Althea; In the World of Magicka</a> 
       <br><a href="https://www.youtube.com/watch?v=1bqo85KPMmo" style = "color:#ffffff">City of Witches</a> </p> </div>
+
+      <div class="photography"><h2>Photography</h2> <p>I do commissions! <br> Events, weddings, parties, etc. <br> Please email for inquiries.</p></div>
+
+      <div class="art"><h2>Art</h2> <p>Check out my art on <a href="https://reiespstar.etsy.com" style = "color:#ffffff">Etsy!</a></p></div>
 
 
       </div>
     </article>
+
+    <script>
+      const images = [
+        'painting2.jpg',
+        'painting1.jpg',
+        'last silver dragon picture.jpg',
+        'IMG_3451.jpg',
+        'IMG_3525.jpg',
+        'abstract art.jpg'
+      ];
+
+      let current = 0;
+      const imgElement = document.getElementById('flipbook-image');
+
+      setInterval(() => {
+        // Flip animation
+        imgElement.classList.add('flip');
+
+        // Wait for half the flip to change image
+        setTimeout(() => {
+          current = (current + 1) % images.length;
+          imgElement.src = images[current];
+          imgElement.classList.remove('flip');
+        }, 300);
+      }, 3000);
+
+
+      const images2 = [
+        'catnip.jpg',
+        'photo3.jpg',
+        'roses.jpg',
+        'pic2.jpg',
+        'pic3.jpg',
+        'pic4.jpg',
+        'pic5.jpg',
+        'pic6.jpg',
+        'pic7.jpg',
+        'pic8.jpg',
+        'iceland1.jpg',
+        'iceland2.jpg'
+      ];
+
+      let current2 = 0;
+      const imgElement2 = document.getElementById('flipbook-image2');
+
+      setInterval(() => {
+        // Flip animation
+        imgElement2.classList.add('flip');
+
+        // Wait for half the flip to change image
+        setTimeout(() => {
+          current2 = (current2 + 1) % images2.length;
+          imgElement2.src = images2[current2];
+          imgElement2.classList.remove('flip');
+        }, 300);
+      }, 4000);
+    </script>
+
 </body>
 </html>
