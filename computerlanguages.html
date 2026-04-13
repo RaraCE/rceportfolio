@@ -36,6 +36,49 @@ body, article, img{
     width: 100%;
 }
 
+.navbar {
+  position: fixed;          /* stays at top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start; /*everything starts left */
+  align-items: center;
+  gap: 100px; /* space between logo and links */
+
+  padding: 15px 40px;
+  background-color: rgba(3, 39, 61, 0.95);
+  backdrop-filter: blur(6px);
+
+  z-index: 1000;            /* keeps it above everything */
+}
+
+.nav-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(20, 181, 230);
+}
+
 .github {
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -48,6 +91,19 @@ body, article, img{
 </head>
 
 <body>
+            <nav class="navbar">
+            <div class="nav-logo">MyPortfolio</div>
+  
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="research.html">Research Projects</a></li>
+                <li><a href="computerlanguages.html">Computer Projects</a></li>
+                <li><a href="workexperience.html">Work Experience</a></li>
+                <li><a href="volunteer.html">Volunteer Work</a></li>
+                <li><a href="writing.html">Other Works</a></li>
+            </ul>
+        </nav>
 
     <article>
         <div class="container">
