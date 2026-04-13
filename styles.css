@@ -1,20 +1,32 @@
 .main {
-  height: 96vh;
-  width: 96vw;
+  /*height: 96vh;*/
+  min-height: 100vh;   /* allows it to grow beyond screen */
+  width: fit-content;
   margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 30px;
-  margin-left: 30px;
+  /*margin-bottom: 10px;*/
+  margin-right: 40px;
+  margin-left: 40px;
   background-color: rgb(3, 39, 61);
-  position: fixed;
+  position: relative;
 }
 
-body, article, img{
+article{
   text-align: center;
   height: 100%;
   width: 100%;
   margin: auto;
 }
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*
     .container {
       position: relative;
       text-align: center;
@@ -23,112 +35,117 @@ body, article, img{
      height: 100%;
      width: 100%;
      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- }
+ } */
 
- .createdby {
+ .createdby { /*this creates the message 'created by' on screen */
   position: absolute;
   font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 15px;
   top: 5%;
-  left: 5%;
+  left: 30vh;
 } 
 
-.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 13px; top: 15%; right: 8%; padding: 1%; background: rgba(20, 181, 230, 0.834); text-align: center; border-radius: 10%;  }
+.navbar {
+  position: fixed;          /* stays at top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
 
-.left-name {position: absolute; font-family: Brush Script MT, 'Times New Roman', Times, serif; font-size: 240%; top: 1%; left: 20%; letter-spacing: 5px;}
+  display: flex;
+  justify-content: flex-start; /*everything starts left */
+  align-items: center;
+  gap: 100px; /* space between logo and links */
 
+  padding: 15px 40px;
+  background-color: rgba(3, 39, 61, 0.95);
+  backdrop-filter: blur(6px);
 
-.aboutme {
-  position: absolute;
-  top: 26%;
-  left: 10%;
-  color: black;
-  font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
+  z-index: 1000;            /* keeps it above everything */
 }
 
-.aboutme1 {
+.nav-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(20, 181, 230);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;     /* stack vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: center;    /* center vertically (if container has height) */
+  gap: 30px;                  /* space between items */
   position: absolute;
-  top: 33%;
-  left: 0%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 20px;
-  padding: 2%;
-  background: rgba(20, 181, 230, 0.834);
-  text-align: center;
-  border-radius: 10%;
+  top: 100vh;
+  left: 30%;
+  margin-right: 30px;
 }
+
+.menu div {
+  text-align: center;         /* centers the words */
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;  /* gives better control */
+}
+
+.menu a:hover {
+  color: rgb(211, 245, 255);
+}
+
+.contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; top: 50vh; left:6%; padding: .5%; background: rgba(20, 181, 230, 0.834); text-align: center; border-radius: 10%;  }
+
+.name {position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif; font-size: 260%; top: 10vh; left: 20%; letter-spacing: 15px; color: rgb(9, 17, 42);}
 
 .education {
-  position: fixed;
-  top: 65%;
-  left: 45%;
+  position: absolute;
+  top: 65vh;
+  left: 8%;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
-  text-decoration: underline;
+  text-decoration: none;
 }
-.education:hover {background-color: white;}
+.education a:hover {color: rgb(211, 245, 255);}
 
-.volunteer{
-  position: fixed;
-  top: 80%;
-  right: 17%;
+.intro {
+  display: flex;
+  flex-direction: column;     /* stack vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: center;    /* center vertically (if container has height) */
+  gap: 30px;                  /* space between items */
+  position: absolute;
   color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
+  font-size: 20px;
+  top: 57vh;
+  left: 30%;
+  margin-right: 30px;
 }
-.volunteer:hover {background-color: white;}
-
-
-.workexperience {
-  position: fixed;
-  top: 73%;
-  left: 20%;
-  color: black;
-  font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.workexperience:hover {background-color: white;}
-
-.writing{
-  position: fixed;
-  top: 65%;
-  left: 15%;
-  color: black;
-  font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.volunteer:hover {background-color: white;}
-
-
-.languages {
-  position: fixed;
-  top: 73%;
-  right: 15%;
-  color: black;
-  font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-
-.languages:hover {background-color: white;}
-
-.papers {
-  position: fixed;
-  top: 80%;
-  left: 15%;
-  color: black;
-  font-family:Georgia , 'Times New Roman', Times, serif;
-  font-size: 35px;
-  text-decoration: underline;
-}
-.papers:hover {background-color: white;}
-
 
 .direct {
   position: fixed;
