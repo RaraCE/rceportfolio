@@ -1,124 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" class ="main">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>RCE Portfolio</title>
+    <title>Writing Samples</title>
 
-    <style>
-        .main {
-  /*height: 96vh;*/
-  min-height: 100vh;   /* allows it to grow beyond screen */
-  width: fit-content;
-  margin-top: 10px;
-  /*margin-bottom: 10px;*/
-  margin-right: 40px;
-  margin-left: 40px;
-  background-color: rgb(3, 39, 61);
-  position: relative;
-}
+  <style>
+    .main {
+      height: 96vh;
+      width: 96vw;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-right: 30px;
+      margin-left: 30px;
+      background-color: rgb(3, 39, 61);
+      position: fixed;
+    }
 
-article{
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  margin: auto;
-}
+    body, article{
+      text-align: center;
+      height: 100%;
+      width: 100%;
+      margin: auto;
+      background: linear-gradient(to right, #ff8c00, #8b4513, #8b0000);
+    }
 
-body {
-  margin: 0;
-  text-align: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-/*
     .container {
       position: relative;
       text-align: center;
       margin: 0;
       padding: 0;
-     height: 100%;
-     width: 100%;
-     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- } */
+      height: 100%;
+      width: 100%;
+    }
 
- .createdby { /*this creates the message 'created by' on screen */
-  position: absolute;
-  font-family:Garamond, 'Times New Roman', Times, serif;
-  font-size: 15px;
-  top: 5%;
-  left: 30vh;
-} 
 
-.navbar {
-  position: fixed;          /* stays at top when scrolling */
-  top: 0;
-  left: 0;
-  width: 100%;
 
-  display: flex;
-  justify-content: flex-start; /*everything starts left */
-  align-items: center;
-  gap: 100px; /* space between logo and links */
-
-  padding: 15px 40px;
-  background-color: rgba(3, 39, 61, 0.95);
-  backdrop-filter: blur(6px);
-
-  z-index: 1000;            /* keeps it above everything */
-}
-
-.nav-logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  transition: 0.3s;
-}
-
-.nav-links a:hover {
-  color: rgb(20, 181, 230);
-}
+     .left-top {
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+      }
+        
     </style>
 
 </head>
 
 <body> 
-          <nav class="navbar">
-            <div class="nav-logo">MyPortfolio</div>
-  
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="research.html">Research Projects</a></li>
-                <li><a href="computerlanguages.html">Computer Projects</a></li>
-                <li><a href="workexperience.html">Work Experience</a></li>
-                <li><a href="volunteer.html">Volunteer Work</a></li>
-                <li><a href="writing.html">Other Works</a></li>
-            </ul>
-          </nav>
+    
 
     <article>
-        <div class="container">
-         <img src="bk3.png" alt="a picture of a microphone";>
+      <div class="container">
+        
         <div class="left-top"><h1>writing samples</h1></div>
+
+        <!-- <a href="sample1.pdf" target="_blank">View Writing Sample (PDF)</a> -->
+
       </div>
     </article>
 
