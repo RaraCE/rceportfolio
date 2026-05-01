@@ -26,11 +26,11 @@ body, article, img{
   margin: auto;
 }
 
-        .container {
-     position: relative;
-     text-align: center;
-     margin: 0;
-     padding: 0;
+.container {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
 }
@@ -141,16 +141,52 @@ body, article, img{
             padding: 15px;
         }
 
-        .image1 {
+        div.pic1 {
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
             position: absolute;
-            top: 77%;
+            top: 75%;
             left: 5%;
+            color: white;
         }
 
-        .image2 {
+        div.pic1:hover {
+            border: 1px solid #777;
+        }
+
+        div.pic1 img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.pic1 div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        div.pic2 {
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
             position: absolute;
-            top: 77%;
-            left: 25%;
+            top: 75%;
+            left: 30%;
+            color: white;
+        }
+
+        div.pic2:hover {
+            border: 1px solid #777;
+        }
+
+        div.pic2 img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.pic2 div.desc {
+            padding: 15px;
+            text-align: center;
         }
 
 
@@ -179,9 +215,19 @@ body, article, img{
 
         <img src="bk10.png" alt="a picture of molecules and space";>
 
-        <img class="image1" src="SEMimage1.png" alt="a SEM picture of microparticles" style="width:200px; height: 150px" ;>
+        <div class="pic1">
+            <a target="_blank" href="SEMimage1.png">
+                <img src="SEMimage1.png" alt="a SEM picture of microparticles" style="width:200px; height: 150px" ;>
+            </a>
+            <div class="desc">SEI image1</div>
+        </div>
 
-        <img class="image2" src="SEMimage2.jpg" alt="a SEM picture of electron spectroscopy of elements" style="width:200px; height: 150px" ;>
+        <div class="pic2">
+            <a target="_blank" href="SEMimage2.jpg">
+                <img src="SEMimage2.jpg" alt="a SEM picture of electron spectroscopy of elements" style="width:200px; height: 150px";>
+            </a>
+            <div class="desc">SEI image2</div>
+        </div>
         
         <div class="left-top"><h1>research and published papers</h1></div>
         
