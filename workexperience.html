@@ -4,33 +4,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Work History</title>
+    <title>Work Experience</title>
 
     <style>
 
 .main {
-  height: 96vh;
-  width: 96vw;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-right: 30px;
-  margin-left: 30px;
-  background-color: rgb(3, 39, 61);
-  position: fixed;
+    height: 300vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: rgb(3, 39, 61);
+    position: relative;
 }
 
-body, article, img{
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  margin: auto;
+body, article{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to right, #8fcdfc, #53a4e2, #1470b7);
 }
 
-        .container {
-     position: relative;
-     text-align: center;
-     margin: 0;
-     padding: 0;
+.container {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
 }
@@ -78,6 +78,24 @@ body, article, img{
   color: rgb(20, 181, 230);
 }
 
+.workexperience {
+  display: flex;
+  flex-direction: column;     /* stack vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: center;    /* center vertically (if container has height) */
+  gap: 30px;                  /* space between items */
+  position: absolute;
+  color: black;
+  font-family:Georgia , 'Times New Roman', Times, serif;
+  font-size: 20px;
+  top: 5vh;
+  left: 5%;
+  margin-right: 30px;
+}
+
+.workexperience div {
+  text-align: center;         /* centers the words */
+}
 
     </style>
 </head>
@@ -100,7 +118,59 @@ body, article, img{
     <article>
     <div class="container">
 
-        <img src="work experience.jpg" alt="a picture of waves" width= "1700px" height= "1030px";>
+        <div class="workexperience">
+            <div class="title"><h1>Work Experience</h1></div>
+
+            <div class="wk1"><h2>Intel</h2></div>
+            <div class="wk1date"><i>Nov 2019 - Mar 2026</i></div>
+            <div class="wk1info">
+                <p>Worked inside and outside of the Fab (factory laboratory) as a Manufacturing Equipment Technician and Manufacturing Technician<br><br>
+                - Supported complex system operations by troubleshooting issues, analyzing system behavior, and resolving technical problems<br>
+                - Interpreted system data and logs to identify root causes and ensure proper system functionality<br>
+                - Documented issues, processes, and resolutions to maintain consistency and support operational workflows<br>
+                - Collaborated with engineering and cross-functional teams to resolve issues and improve system performance <br>
+                - Followed structured procedures and workflows to ensure accurate and reliable execution of tasks<br>
+                - Managed multiple tasks and priorities in a high-volume environment while maintaining attention to detail<br>
+                </p>
+            </div>
+            
+            <div class="wk2"><h2>Northern Arizona University</h2></div>
+            <div class="wk2date"><i>Feb 2014 - May 2017</i></div>
+            <div class="wk2info">
+                <p>Worked as both a Research Assistant and a Teacher's Assistant. As I researcher, I did the various tasks:<br><br>
+                - Collaborated with peers and professor on experimental data projects, supporting data preparation and analysis workflows<br>
+                - Documented issues, processes, and resolutions to maintain consistency and support operational workflows<br>
+                - Performed statistical analysis and data visualization of experimental physics data, applying scientific techniques to validate results and produce structured, reproducible visual reports<br>
+                - Assisted in data organization and experimental setup to ensure accurate and reliable data collection <br>
+                - Worked on SEM and Thermal Vacuum machines to produce microswimmers for experiments<br><br>
+                As a Teacher's Assistant, I helped grade assignments and teach lab as part of a class curriculum</p>
+            </div>
+
+            <div class="wk3"><h2>Retail</h2></div>
+            <div class="wk3date"><i>June 2011 - August 2019</i></div>
+            <div class="wk3info">
+                <p>Worked in various retail establishments such as: Safeway/Starbucks, Coffee Bean and Tea Leaf, Walmart, USP, Wendy's, Dave's BBQ, Petsmart<br><br>
+                - Working in retail as allowed me to gain experience in customer service in various roles and focus on product sales<br>
+                - Maintained consistency and reliability while handling repetitive and high-volume tasks<br>
+                - Communicated clearly with team members and customers to resolve issues efficiently</p>
+            </div>
+
+            <div class="wk4"><h2>Mountain View High School</h2></div>
+            <div class="wk4date"><i>Sept 2009 - May 2010</i></div>
+            <div class="wk4info">
+                <p>Secretary Assistant<br><br>
+                - Assisted the school's secretary with various tasks, such as paperwork, printing, delivering, and organization as part of a credit course</p>
+            </div>
+
+            <div class="wk5"><h2>Author</h2></div>
+            <div class="wk5date"><i>Sept 2015 - Present</i></div>
+            <div class="wk5info">
+                <p>- Published multiple fictional books through Amazon KDP Publishing</p>
+            </div>
+            
+        </div>
+
+        <!-- <img src="bk4.png" alt="a picture of waves" width= "1700px" height= "1030px";> -->
         
     </div>
     </article>
