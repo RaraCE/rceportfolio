@@ -125,12 +125,18 @@ img {
   position: absolute;
   top: 65vh;
   left: 8%;
-  color: black;
   font-family:Georgia , 'Times New Roman', Times, serif;
   font-size: 35px;
-  text-decoration: none;
 }
-.education a:hover {color: rgb(211, 245, 255);}
+
+.education a {
+  text-decoration: none;
+  color: black;
+}
+
+.education a:hover {
+  color: rgb(211, 245, 255);
+}
 
 .intro {
   display: flex;
