@@ -22,27 +22,25 @@ body {
   text-align: center;
 }
 
-img {
+.mepic{
+  top: 150px;
+  left: 106px;
+  position: absolute;
+  width: 250px;
+  height: auto;
+}
+
+.bckg {
   max-width: 100%;
   height: auto;
 }
-/*
-    .container {
-      position: relative;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-     height: 100%;
-     width: 100%;
-     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- } */
 
  .createdby { /*this creates the message 'created by' on screen */
   position: absolute;
   font-family:Garamond, 'Times New Roman', Times, serif;
   font-size: 15px;
   top: 5%;
-  left: 30vh;
+  left: 400px;
 } 
 
 .navbar {
@@ -119,7 +117,7 @@ img {
 
 .contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; top: 50vh; left:6%; padding: .5%; background: rgba(20, 181, 230, 0.834); text-align: center; border-radius: 10%;  }
 
-.name {position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif; font-size: 260%; top: 10vh; left: 20%; letter-spacing: 15px; color: rgb(9, 17, 42);}
+.name {position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif; font-size: 260%; top: 10vh; left: 425px; letter-spacing: 15px; color: rgb(9, 17, 42);}
 
 .education {
   position: absolute;
