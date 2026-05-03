@@ -24,8 +24,8 @@ body {
 
 .mepic{
   top: 150px;
-  left: 106px;
-  position: absolute; /* this allows the picture to overlap the background image */
+  left: 106px; 
+  position: absolute;  /* this allows the picture to overlap the background image */
   width: 250px;
   height: auto;
 }
@@ -54,6 +54,7 @@ body {
   background: aquamarine;
   border-radius: 17px
 } 
+
 
 .navbar {
   position: fixed;          /* stays at top when scrolling */
@@ -98,6 +99,7 @@ body {
   color: rgb(20, 181, 230);
 }
 
+
 .menu {
   display: flex;
   flex-direction: column;     /* stack vertically */
@@ -129,7 +131,7 @@ body {
 
 .contact {position: absolute; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; top: 50vh; left:6%; padding: .5%; background: rgba(20, 181, 230, 0.834); text-align: center; border-radius: 10%;  }
 
-.name {position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif; font-size: 260%; top: 10vh; left: 425px; letter-spacing: 20px; color: rgb(9, 17, 42);}
+.name {position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif; font-size: 260%; top: 10vh; left: 425px; letter-spacing: 15px; color: rgb(9, 17, 42);}
 
 .education {
   position: absolute;
@@ -147,6 +149,7 @@ body {
 .education a:hover {
   color: rgb(211, 245, 255);
 }
+
 
 .intro {
   display: flex;
