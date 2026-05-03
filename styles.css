@@ -43,6 +43,18 @@ body {
   left: 400px;
 } 
 
+.comp { 
+  position: absolute;
+  font-family:Garamond, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  top: 50px;
+  right: 100px;
+  padding: 5px;
+  color: black;
+  background: aquamarine;
+  border-radius: 17px
+} 
+
 .navbar {
   position: fixed;          /* stays at top when scrolling */
   top: 0;
